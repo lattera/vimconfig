@@ -1,0 +1,1 @@
+To install simply clone the repo as ~/.vim, pull down the submodules, and symlink ~/.vimrc to ~/.vim/vimrc.
