@@ -32,7 +32,6 @@ set title " Display filename in title bar
 set background=dark " Adapt color scheme for dark backgrounds
 syntax enable " Enable syntax highlighting
 set cursorline "Adds highlighted line on current line
-colorscheme sunburst
 
 "Searching
 set hlsearch "Highlight found searches
@@ -105,6 +104,7 @@ nmap <leader>f :call ShowFunc("yes")<CR>
 "Gui options
 if has("gui_running")
   set guioptions=egmrt "Disable menu bar for gvim/macvim
+  set colorscheme sunburst
   set guifont=Menlo:h12
   set transparency=10
 endif
