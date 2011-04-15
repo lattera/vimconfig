@@ -104,7 +104,7 @@ nmap <leader>f :call ShowFunc("yes")<CR>
 "Gui options
 if has("gui_running")
   set guioptions=egmrt "Disable menu bar for gvim/macvim
-  set colorscheme sunburst
+  colorscheme sunburst
   set guifont=Menlo:h12
   set transparency=10
 endif
