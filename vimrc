@@ -16,7 +16,7 @@ if has("autocmd")
   autocmd BufWritePost .vimrc source $MYVIMRC
 endif
 
-let mapleader = ","
+let mapleader = "\\"
 
 " Tabbing
 set tabstop=2
@@ -29,6 +29,7 @@ nmap <silent> <leader>t :retab<CR>
 set ruler " Display ruler
 set number " Show line numbers
 set title " Display filename in title bar
+colorscheme sunburst
 set background=dark " Adapt color scheme for dark backgrounds
 syntax enable " Enable syntax highlighting
 set cursorline "Adds highlighted line on current line
@@ -64,12 +65,6 @@ nmap <silent> <leader>l :set list!<CR>
 set wrap "enable line wrapping
 set linebreak "unable soft wrapping
 
-" Map keys for Text Mate indentation
-nmap <d-[> <<
-nmap <D-]> >>
-vmap <D-[> <gv
-vmap <D-]> >gv
-
 "Save when lose focus
 au FocusLost silent! :wa
 
@@ -104,7 +99,6 @@ nmap <leader>f :call ShowFunc("yes")<CR>
 "Gui options
 if has("gui_running")
   set guioptions=egmrt "Disable menu bar for gvim/macvim
-  colorscheme sunburst
   set guifont=Menlo:h12
   set transparency=10
 endif
