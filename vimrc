@@ -100,5 +100,6 @@ nmap <leader>f :call ShowFunc("yes")<CR>
 if has("gui_running")
   set guioptions=egmrt "Disable menu bar for gvim/macvim
   set guifont="Menlo for Powerline":h12
+  let g:Powerline_symbols = "fancy"
   set transparency=10
 endif
