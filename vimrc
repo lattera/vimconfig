@@ -99,6 +99,6 @@ nmap <leader>f :call ShowFunc("yes")<CR>
 "Gui options
 if has("gui_running")
   set guioptions=egmrt "Disable menu bar for gvim/macvim
-  set guifont=Menlo:h12
+  set guifont="Menlo for Powerline":h12
   set transparency=10
 endif
