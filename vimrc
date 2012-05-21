@@ -34,6 +34,7 @@ set background=dark " Adapt color scheme for dark backgrounds
 syntax enable " Enable syntax highlighting
 set cursorline "Adds highlighted line on current line
 set t_Co=256 " Enabled 256 color mode (needed for screen/tmux)
+let g:Powerline_symbols = "fancy"
 
 "Searching
 set hlsearch "Highlight found searches
