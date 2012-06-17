@@ -38,6 +38,7 @@ let g:Powerline_symbols = "fancy"
 
 "Searching
 set hlsearch "Highlight found searches
+set incsearch
 nnoremap <leader><space> :noh<CR>
 
 " Misc
@@ -69,6 +70,10 @@ set linebreak "unable soft wrapping
 
 "Save when lose focus
 au FocusLost silent! :wa
+
+" Scrolling
+set scrolloff=10
+set sidescrolloff=10
 
 "NERDTree
 map <F2> :NERDTreeToggle<CR>
