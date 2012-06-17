@@ -58,10 +58,10 @@ set spelllang=en_us " Set spell check language
 " Toggle Spell Checking
 nmap <silent> <leader>s :set spell!<CR>
 
-" Show Invisibles (disabled)
-"set list
-"set listchars=tab:▸\ ,eol:¬
-"nmap <silent> <leader>l :set list!<CR>
+" Show Invisibles
+set list
+set listchars=tab:▸\ ,eol:¬
+nmap <silent> <leader>l :set list!<CR>
 
 " Line Wrapping
 set wrap "enable line wrapping
