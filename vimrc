@@ -29,7 +29,7 @@ nmap <silent> <leader>t :retab<CR>
 set ruler " Display ruler
 set number " Show line numbers
 set title " Display filename in title bar
-colorscheme sunburst
+" colorscheme sunburst
 set background=dark " Adapt color scheme for dark backgrounds
 syntax enable " Enable syntax highlighting
 set cursorline "Adds highlighted line on current line
